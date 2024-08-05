@@ -1,0 +1,134 @@
+.dashboard-message-container {
+  position: relative;
+  width: 100%;
+}
+.message-main-page {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  margin-top: 50px ;
+  border-radius: 8px;
+  background: linear-gradient(
+    229deg,
+    rgba(234, 249, 241, 1) 0%,
+    rgba(140, 251, 222, 1) 49%
+  );
+  padding: 15px;
+}
+.message-letter {
+  position: relative;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 8px;
+  background-color: rgb(247, 252, 252);
+  padding: 30px;
+}
+.message-header {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  gap: 10px;
+  padding: 10px;
+}
+.message-letter-body {
+  position: relative;
+  width: 85%;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%);
+}
+.m-25 {
+  margin: 25px;
+}
+.message-client-details {
+}
+.message-desc {
+}
+.message-desc h2 {
+  text-align: center;
+}
+.message-desc p {
+  width: 95%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.function-box {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 100px;
+  gap: 10px;
+}
+.button-41 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00d775, #00bd68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  height: 44px;
+  line-height: 44px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: max-content;
+  z-index: 9;
+  border: 0;
+  font-size: 16px;
+  vertical-align: middle; 
+}
+
+.button-41:hover {
+  background: #00bd68;
+}
+.button-42 {
+  font-size: 16px;
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #ff7e31, #e62c03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  height: 44px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: max-content;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow 0.2s;
+}
+
+.button-42:hover {
+  background: #ff7e31;
+}

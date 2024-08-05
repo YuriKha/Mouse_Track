@@ -1,0 +1,78 @@
+.timeselector-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 3;
+}
+.timeselector-mid-box{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.timeselector-topside{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.timeselector-arrow{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+.timeselector-close-button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.timeselector-sidebox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.timeselector-button{
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    align-self: center;
+}
+.button-43 {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-43:hover {
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}

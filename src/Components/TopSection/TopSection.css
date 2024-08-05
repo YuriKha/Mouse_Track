@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.top-box{
+    position: relative;
+    display: flex;
+    width: 80%;
+    margin-top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.text-side{
+    position: relative;
+    width: 50%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-side-button{
+    cursor: pointer;
+    color: white;
+    outline: none;
+    padding: 15px 60px;
+    font-size: 25px;
+    border-radius: 50px;
+    background: rgb(0, 0, 0);
+    border: none;
+    margin: 50px;
+    text-decoration: none;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 1s ease;
+}
+.text-side-button:hover{
+    background: rgb(88, 88, 88);
+    
+}
+.text-side h1{
+    font-size: 4vw;
+}
+.text-side h2{
+    font-size: 1.5vw;
+    margin-left:20px;
+    font-family: 'Nunito', sans-serif;
+}
+/* ====================================================================== */
+.img-side{
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-side > img{
+    width: 100%;
+} 
+
+@media screen and 
+(max-width: 1000px){
+    .top-box{
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+    }
+    .text-side ,.img-side{
+        width: 100%;
+    }
+    .text-side h1{
+        font-size: 10vw;
+    }
+    .text-side h2{
+        font-size: 4.5vw;
+    }
+    .text-side-button{
+        background-color: #a8a8a8;
+        font-size: 0.98em;
+        padding: 15px 40px;
+    }
+}

@@ -1,0 +1,8 @@
+.signup{
+    height: 700px;
+}
+@media screen and (max-width: 550px){
+    .signup{
+        margin: 20% 0%;
+    }
+  }

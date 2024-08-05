@@ -1,0 +1,106 @@
+.profile-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: rgb(231, 231, 231);
+  display: flex;
+  justify-content: space-between;
+}
+.heatmap-container{
+  position: relative;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client-data-side {
+  position: sticky;
+  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  height: 95%;
+  top: 20px;
+  left: 25px;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+.client-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.client-img {
+  width: 200px;
+  height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  border-radius: 50%;
+  padding: 25px;
+  color: #a5a5a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7em;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+.client-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #3f3f3f;
+  font-size: 18px;
+}
+.client-buttons {
+  width: 80%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.client-button {
+  align-self: center;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  font-size: 18px;
+  color: #3f3f3f;
+  width: 90%;
+}
+.client-web-data {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 25px;
+  gap: 20px;
+  font-size: 18px;
+}
+.web-selector {
+  border: 1px solid rgba(63, 63, 63, 0.135);
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  width: 90%;
+  height: 30px;
+  align-self: center;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+/* ===================Data Side====================================== */
+.data-side {
+  padding: 1em;
+  display: flex;
+  gap: 20px;
+}
+.bar-chart {
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  height: max-content;
+  border-radius: 20px;
+  padding: 20px;
+}

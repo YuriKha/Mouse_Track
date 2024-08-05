@@ -1,0 +1,57 @@
+.rawview-container {
+  position: fixed;
+  width: 1920px;
+  height: 1080px;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  overflow-x: hidden;
+}
+
+.rawview-container img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+}
+.heatmap-webview-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.rawview-model {
+  position: relative;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  background-color: white;
+  border-radius: 10px;
+  width: max-content;
+  padding: 0px 30px;
+  padding-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: top 0.3s ease-out;
+  z-index: 9999;
+}
+.model-up {
+  top: -90px;
+}
+.model-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+.model-text > div:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+  padding-right: 10px; /* Add padding to separate the border from text */
+}
+.model-arrow {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+  cursor: pointer;
+}

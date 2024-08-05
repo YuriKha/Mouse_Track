@@ -1,0 +1,110 @@
+.mf-container {
+  width: 100%;
+  height: 100%;
+}
+.mf-main-body {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  margin: 50px 0px;
+  border-radius: 8px;
+  background: rgb(234, 249, 241);
+  background: linear-gradient(
+    0deg,
+    rgba(234, 249, 241, 1) 0%,
+    rgba(251, 205, 140, 1) 0%
+  );
+  padding: 15px;
+}
+.mf-message-box {
+  position: relative;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 8px;
+  background-color: rgb(247, 252, 252);
+  padding: 30px;
+  display: flex;
+  gap: 10px;
+  margin: 15px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.mf-message-box-side {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+}
+.mf-message-box-side p {
+  width: 90%;
+}
+.mf-time-box-side {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.centertext {
+  text-align: center;
+  width: 80%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  margin-bottom: 5px;
+}
+.w-100 {
+  width: 100%;
+}
+.bm-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+}
+.bm-model {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 600px;
+  border-radius: 8px;
+  background: linear-gradient(
+    0deg,
+    rgba(202, 219, 210, 1) 0%,
+    rgba(140, 222, 251, 1) 44%
+  );
+  padding: 20px;
+}
+.bm-message {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 400px;
+  background-color: azure;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bm-message textarea{
+    width: 80%;
+    height: 80%;
+    background-color: azure;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.bm-buttons{
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+    justify-content: end;
+}

@@ -1,0 +1,6 @@
+.Dashboard-main-side {
+    position: relative;
+    grid-area: content / content / content / content;
+    transition: width 300ms ease-in-out 0s;
+    overflow: auto;
+  }
